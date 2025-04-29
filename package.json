@@ -1,0 +1,21 @@
+{
+  "name": "backend-2025-gravacao",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "video",
+    "aula",
+    "gravacao"
+  ],
+  "author": "Lucas Dunke Ramalho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
