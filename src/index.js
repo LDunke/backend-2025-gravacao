@@ -5,8 +5,7 @@ const server = express();
 const PORT = process.env.PORT || 3000;
 
 server.get("/", (req, res)=>{
-    res.status(200).send("Primeira Rota do Backend");
-});
+    res.status(200).send("Primeira Rota do Backend - Alterado"); });
 
 server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

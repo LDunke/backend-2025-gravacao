@@ -5,7 +5,7 @@
   "type": "module",
   "description": "",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node --watch --experimental-sqlite --trace-warnings src/index.js"
   },
   "keywords": [
     "backend",
@@ -16,6 +16,7 @@
   "author": "Lucas Dunke Ramalho",
   "license": "ISC",
   "dependencies": {
+    "23": "^0.0.0",
     "express": "^5.1.0"
   }
 }
